@@ -1,0 +1,178 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/vector-SbS.png
+    - assets/page-1/images/ellipse-1579.png
+    - assets/page-1/images/vector-mgk.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/mobile-signal.png
+    - assets/page-1/images/wifi-o7n.png
+    - assets/page-1/images/ellipse-1580.png
+    - assets/page-1/images/vector-aLG.png
+    - assets/page-1/images/zoomout.png
+    - assets/page-1/images/exitright.png
+    - assets/page-1/images/user.png
+    - assets/page-1/images/mobile-signal-tV6.png
+    - assets/page-1/images/polygon-2.png
+    - assets/page-1/images/battery-37e.png
+    - assets/page-1/images/exit-right-icon.png
+    - assets/page-1/images/polygon-2-93E.png
+    - assets/page-1/images/vector-1.png
+    - assets/page-1/images/turnleft.png
+    - assets/page-1/images/mobile-signal-TE8.png
+    - assets/page-1/images/primary.png
+    - assets/page-1/images/vector-14.png
+    - assets/page-1/images/polygon-1.png
+    - assets/page-1/images/continuestraight.png
+    - assets/page-1/images/mobile-signal-8Sk.png
+    - assets/page-1/images/polygon-1-yCU.png
+    - assets/page-1/images/continuestraight-Uf2.png
+    - assets/page-1/images/wifi-PAp.png
+    - assets/page-1/images/polygon-5.png
+    - assets/page-1/images/primary-kaL.png
+    - assets/page-1/images/group-120.png
+    - assets/page-1/images/blur-background.png
+    - assets/page-1/images/wifi-Lsr.png
+    - assets/page-1/images/battery-Bp4.png
+    - assets/page-1/images/primary-KfN.png
+    - assets/page-1/images/main.png
+    - assets/page-1/images/battery-hgU.png
+    - assets/page-1/images/icons.png
+    - assets/page-1/images/trash.png
+    - assets/page-1/images/mobile-signal-68p.png
+    - assets/page-1/images/mobile-signal-STa.png
+    - assets/page-1/images/vector-1-CVv.png
+    - assets/page-1/images/indicator.png
+    - assets/page-1/images/polygon-1-pSk.png
+    - assets/page-1/images/wifi-PrQ.png
+    - assets/page-1/images/battery-jfN.png
+    - assets/page-1/images/wifi-JTa.png
+    - assets/page-1/images/current-location-icon.png
+    - assets/page-1/images/exit-right-icon-hT6.png
+    - assets/page-1/images/wifi-gdN.png
+    - assets/page-1/images/wifi-UFi.png
+    - assets/page-1/images/indicator-Pda.png
+    - assets/page-1/images/polygon-5-VCk.png
+    - assets/page-1/images/battery-q1i.png
+    - assets/page-1/images/location-icon.png
+    - assets/page-1/images/mobile-signal-T36.png
+    - assets/page-1/images/mobile-signal-yZA.png
+    - assets/page-1/images/battery-Uy6.png
+    - assets/page-1/images/wifi-qoe.png
+    - assets/page-1/images/turnleft-1TE.png
+    - assets/page-1/images/main-P4U.png
+    - assets/page-1/images/vector-15.png
+    - assets/page-1/images/icons-3SG.png
+    - assets/page-1/images/mobile-signal-AoS.png
+    - assets/page-1/images/polygon-2-vJ4.png
+    - assets/page-1/images/trash-hQc.png
+    - assets/page-1/images/icons-mqa.png
+    - assets/page-1/images/image-18-bg.png
+    - assets/page-1/images/battery-4aL.png
+    - assets/page-1/images/photo-from-nandu-2-2-bg.png
+    - assets/page-1/images/battery-xTr.png
+    - assets/page-1/images/photo-from-nandu-2-2-bg-VTn.png
+    - assets/page-1/images/zoomout-ASk.png
+    - assets/page-1/images/ellipse-815.png
+    - assets/page-1/images/map-frame-bg.png
+    - assets/page-1/images/rectangle-3.png
+    - assets/page-1/images/top-shape.png
+    - assets/page-1/images/ellipse-1581.png
+    - assets/page-1/images/image-1-bg.png
+    - assets/page-1/images/rectangle-4.png
+    - assets/page-1/images/component-1.png
+    - assets/page-1/images/image-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
