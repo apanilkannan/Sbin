@@ -3,8 +3,6 @@ import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
-import 'package:myapp/page-1/android-large-8.dart';
-import 'package:get/get.dart';
 
 class Scene6 extends StatelessWidget {
   @override
@@ -31,98 +29,13 @@ class Scene6 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              // statusbarwbe (49:547)
-              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 88*fem),
-              padding: EdgeInsets.fromLTRB(21*fem, 12*fem, 14.67*fem, 11*fem),
-              width: double.infinity,
-              height: 44*fem,
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Container(
-                    // leftsideSoJ (I49:547;13:1471)
-                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 233.67*fem, 0*fem),
-                    width: 54*fem,
-                    height: double.infinity,
-                    decoration: BoxDecoration (
-                      borderRadius: BorderRadius.circular(24*fem),
-                    ),
-                    child: Container(
-                      // statusbartimeMvG (I49:547;13:1472)
-                      padding: EdgeInsets.fromLTRB(14*fem, 1*fem, 14*fem, 0*fem),
-                      width: double.infinity,
-                      height: double.infinity,
-                      decoration: BoxDecoration (
-                        borderRadius: BorderRadius.circular(24*fem),
-                      ),
-                      child: Text(
-                        '9:41',
-                        textAlign: TextAlign.center,
-                        style: SafeGoogleFont (
-                          'SF Pro Text',
-                          fontSize: 15*ffem,
-                          fontWeight: FontWeight.w600,
-                          height: 1.3333333333*ffem/fem,
-                          letterSpacing: -0.5*fem,
-                          color: Color(0xffffffff),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    // rightside3YC (I49:547;13:1464)
-                    margin: EdgeInsets.fromLTRB(0*fem, 5.33*fem, 0*fem, 4.33*fem),
-                    height: double.infinity,
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // mobilesignalYzk (I49:547;13:1470)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5.03*fem, 0*fem),
-                          width: 17*fem,
-                          height: 10.67*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/mobile-signal-8Sk.png',
-                            width: 17*fem,
-                            height: 10.67*fem,
-                          ),
-                        ),
-                        Container(
-                          // wifi4y6 (I49:547;13:1469)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5.03*fem, 0.37*fem),
-                          width: 15.27*fem,
-                          height: 10.97*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/wifi-PrQ.png',
-                            width: 15.27*fem,
-                            height: 10.97*fem,
-                          ),
-                        ),
-                        Container(
-                          // batteryzbr (I49:547;13:1465)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 0*fem),
-                          width: 24.33*fem,
-                          height: 11.33*fem,
-                          child: Image.asset(
-                            'assets/page-1/images/battery-hgU.png',
-                            width: 24.33*fem,
-                            height: 11.33*fem,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Container(
               // logintoyouraccountfxt (49:439)
-              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 40*fem, 0*fem),
+              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 120*fem, 0*fem),
               constraints: BoxConstraints (
                 maxWidth: 202*fem,
               ),
               child: Text(
-                'Login to Your Account',
+                '\n\nLogin to Your Account',
                 style: SafeGoogleFont (
                   'Roboto',
                   fontSize: 34*ffem,
@@ -314,9 +227,7 @@ class Scene6 extends StatelessWidget {
                     left: 113*fem,
                     top: 458*fem,
                     child: TextButton(
-                      onPressed: () {
-                        Get.to(Scene7());
-                      },
+                      onPressed: () {},
                       style: TextButton.styleFrom (
                         padding: EdgeInsets.zero,
                       ),
@@ -339,33 +250,9 @@ class Scene6 extends StatelessWidget {
                 ],
               ),
             ),
-            TextButton(
-              // statusbarqTN (49:560)
-              onPressed: () {},
-              style: TextButton.styleFrom (
-                padding: EdgeInsets.zero,
-              ),
-              child: Container(
-                padding: EdgeInsets.fromLTRB(128*fem, 21*fem, 128*fem, 8*fem),
-                width: double.infinity,
-                child: Center(
-                  // homeindicatorNTJ (I49:560;13:1486)
-                  child: SizedBox(
-                    width: double.infinity,
-                    height: 5*fem,
-                    child: Container(
-                      decoration: BoxDecoration (
-                        borderRadius: BorderRadius.circular(100*fem),
-                        color: Color(0xffffffff),
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ),
           ],
         ),
       ),
-          );
+    );
   }
 }

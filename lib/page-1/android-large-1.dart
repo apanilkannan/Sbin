@@ -6,6 +6,7 @@ import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/android-large-6.dart';
 import 'package:get/get.dart';
 
+
 class Scene1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

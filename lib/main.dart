@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/android-large-1.dart';
 
+
 // import 'package:myapp/page-1/android-large-2.dart';
 // import 'package:myapp/page-1/android-large-3.dart';
 // import 'package:myapp/page-1/.dart';
@@ -29,7 +30,11 @@ class MyApp extends StatelessWidget {
 		theme: ThemeData(
 		primarySwatch: Colors.blue,
 		),
-		home: Scene1(),
+		home: Scaffold(
+			body: Center(
+				child: Scene1()
+			),
+		),
 	);
 	}
 }

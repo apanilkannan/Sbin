@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 class Scene5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    double baseWidth = 367;
+    double baseWidth = 408;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Container(
@@ -60,7 +60,9 @@ class Scene5 extends StatelessWidget {
               // continuewithgoogleleftalignedf (2:22)
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 55*fem),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(Scene6());
+                },
                 style: TextButton.styleFrom (
                   padding: EdgeInsets.zero,
                 ),
@@ -105,27 +107,49 @@ class Scene5 extends StatelessWidget {
               ),
             ),
             Container(
-              // continuewithappleleftalignedfi (2:24)
-              width: 345*fem,
-              height: 20*fem,
-              decoration: BoxDecoration (
-                borderRadius: BorderRadius.circular(10*fem),
-                gradient: LinearGradient (
-                  begin: Alignment(-0.983, 0.17),
-                  end: Alignment(0.942, 0.245),
-                  colors: <Color>[Color(0xff000000), Color(0x00000000)],
-                  stops: <double>[0, 1],
+              // continuewithgoogleleftalignedf (2:22)
+              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 55*fem),
+              child: TextButton(
+                onPressed: () {},
+                style: TextButton.styleFrom (
+                  padding: EdgeInsets.zero,
                 ),
-              ),
-              child: Center(
-                child: Text(
-                  'Continue as Collector',
-                  style: SafeGoogleFont (
-                    'Roboto',
-                    fontSize: 20*ffem,
-                    fontWeight: FontWeight.w400,
-                    height: 1.1725*ffem/fem,
-                    color: Color(0xffffffff),
+                child: Container(
+                  width: 345*fem,
+                  height: 53*fem,
+                  decoration: BoxDecoration (
+                    borderRadius: BorderRadius.circular(10*fem),
+                    gradient: LinearGradient (
+                      begin: Alignment(-0.983, 0.17),
+                      end: Alignment(0.942, 0.245),
+                      colors: <Color>[Color(0xffffffff), Color(0x00ffffff)],
+                      stops: <double>[0, 1],
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Color(0x2a000000),
+                        offset: Offset(0*fem, 2*fem),
+                        blurRadius: 1.5*fem,
+                      ),
+                      BoxShadow(
+                        color: Color(0x15000000),
+                        offset: Offset(0*fem, 0*fem),
+                        blurRadius: 1.5*fem,
+                      ),
+                    ],
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Continue as Collector',
+                      textAlign: TextAlign.center,
+                      style: SafeGoogleFont (
+                        'Roboto',
+                        fontSize: 20*ffem,
+                        fontWeight: FontWeight.w500,
+                        height: 1.1725*ffem/fem,
+                        color: Color(0xff1e1e1e),
+                      ),
+                    ),
                   ),
                 ),
               ),
